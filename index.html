@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#80619a">
+  <title>MellowMoon | Connect With Us</title>
+  <style>
+    :root {
+      --purple: #76548e;
+      --deep: #493257;
+      --lav: #eee5f3;
+      --ink: #2e2633;
+      --muted: #756b7c;
+      --white: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: linear-gradient(135deg, #fbf8fc 0%, #f2e9f6 50%, #faf7fb 100%);
+      display: flex;
+      justify-content: center;
+      padding: 24px 14px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 470px
+    }
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      background: rgba(255, 255, 255, .88);
+      border: 1px solid #fff;
+      border-radius: 32px;
+      padding: 34px 22px 25px;
+      box-shadow: 0 20px 55px rgba(73, 50, 87, .13);
+    }
+
+    .card:before {
+      content: "";
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: #d9c5e440;
+      top: -100px;
+      right: -70px;
+    }
+
+    .brand {
+      position: relative;
+      display: inline-block;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 16px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--purple);
+      margin-bottom: 13px;
+    }
+
+    .brand:after {
+      content: "";
+      display: block;
+      width: 34px;
+      height: 2px;
+      background: #c5a8d3;
+      margin: 8px auto 0;
+      border-radius: 10px;
+    }
+
+    h1 {
+      position: relative;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--deep);
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 1.15;
+    }
+
+    .intro {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.65;
+      max-width: 365px;
+      margin: 11px auto 27px;
+    }
+
+    .socials {
+      display: grid;
+      gap: 11px
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+      min-height: 60px;
+      padding: 0 17px;
+      background: #fff;
+      border: 1px solid #eee7f1;
+      border-radius: 17px;
+      text-decoration: none;
+      color: var(--deep);
+      font-size: 15px;
+      font-weight: 700;
+      box-shadow: 0 6px 18px rgba(73, 50, 87, .06);
+      transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+
+    .social:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 24px rgba(73, 50, 87, .12);
+      border-color: #d9c9e0;
+    }
+
+    .icon {
+      width: 37px;
+      height: 37px;
+      border-radius: 12px;
+      background: var(--lav);
+      display: grid;
+      place-items: center;
+      color: var(--purple);
+      margin-right: 13px;
+      font-size: 17px;
+      font-weight: 800;
+    }
+
+    .name {
+      flex: 1;
+      text-align: left
+    }
+
+    .arrow {
+      font-size: 22px;
+      color: #aa99b3;
+      font-weight: 400
+    }
+
+    .note {
+      margin: 23px auto 0;
+      font-family: Georgia, serif;
+      font-size: 13px;
+      color: #88798e;
+      font-style: italic;
+    }
+
+    .footer {
+      margin-top: 17px;
+      font-size: 10px;
+      color: #aaa0ad;
+      letter-spacing: .4px
+    }
+
+    .footer b {
+      color: #725483
+    }
+
+    @media(max-width:390px) {
+      .card {
+        padding: 29px 15px 21px;
+        border-radius: 27px
+      }
+
+      h1 {
+        font-size: 30px
+      }
+
+      .intro {
+        font-size: 13px
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <section class="card">
+      <div class="brand">MellowMoon</div>
+      <h1>Stay Connected</h1>
+      <p class="intro">
+        Follow us for wellness, self-care and little moments that help you feel your best.
+      </p>
+
+      <nav class="socials" aria-label="MellowMoon social media">
+        <a class="social" href="https://www.instagram.com/mellowmoonofficial/" target="_blank" rel="noopener">
+          <span class="icon">◎</span><span class="name">Instagram</span><span class="arrow">›</span>
+        </a>
+        <a class="social" href="https://www.linkedin.com/company/mellowmoon/" target="_blank" rel="noopener">
+          <span class="icon">in</span><span class="name">LinkedIn</span><span class="arrow">›</span>
+        </a>
+        <a class="social" href="https://www.facebook.com/profile.php?id=61593892352142" target="_blank" rel="noopener">
+          <span class="icon">f</span><span class="name">Facebook</span><span class="arrow">›</span>
+        </a>
+        <a class="social" href="https://www.youtube.com/@MellowMoonWellness" target="_blank" rel="noopener">
+          <span class="icon">▶</span><span class="name">YouTube</span><span class="arrow">›</span>
+        </a>
+        <a class="social" href="https://x.com/MellowMoonWell" target="_blank" rel="noopener">
+          <span class="icon">𝕏</span><span class="name">X</span><span class="arrow">›</span>
+        </a>
+      </nav>
+
+      <p class="note">Your comfort. Your wellness. Your community.</p>
+      <div class="footer">MellowMoon • Made with care</div>
+    </section>
+  </main>
+</body>
+
+</html>
